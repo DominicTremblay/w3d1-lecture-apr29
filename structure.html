@@ -1,0 +1,152 @@
+<!-- HTML 5 -->
+<!DOCTYPE html>
+<!-- tell the browser the language of the page -->
+<html lang="en">
+
+<!-- Meta information about the document -->
+<head>
+  <!-- Character encoding - Unicode -->
+  <meta charset="UTF-8">
+
+  <!-- For mobile. width adjust to width of the device. Zoom leve is 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- For IE - state which version of IE should run  this page  -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Title of your document -->
+  <link rel="stylesheet" href="./normalize.css">
+  <title>My Web Site</title>
+</head>
+
+<style>
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+nav {
+  background-color: rgb(119, 148, 236); 
+  color: #ffffff;
+
+
+}
+
+.logo {
+  float: left;
+  margin: 2em;
+}
+
+.menu {
+  float: right;
+}
+
+ul {
+  margin-right: 5em;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  margin: 1em;
+}
+
+</style>
+<!-- body - content of the document -->
+<body>
+  
+  <header class="header" role="header">
+    <nav class="nav clearfix">
+
+      <div class="logo clearfix">
+        Logo
+      </div>
+
+      <div class="menu">
+
+        <ul>
+          <li><a href="#">menu1</a></li>
+          <li><a href="#">menu2</a></li>
+          <li><a href="#">menu3</a></li>
+          <li><a href="#">menu4</a></li>
+
+        </ul>
+
+      </nav>
+
+
+    </div>
+
+  </header>
+
+  <main>
+
+
+    <h1>Welcome to my page</h1>
+
+    <section class="first-section">
+      <article>
+        <header>
+          Lorem ipsum dolor sit.
+        </header>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt tempore nesciunt iste fugit, quod quisquam sequi tenetur qui accusamus enim voluptates reprehenderit at repudiandae rerum vero quibusdam et pariatur? Nesciunt!
+        </p>
+
+        <footer>
+          Lorem ipsum dolor sit.
+        </footer>
+      </article>
+
+      <article>
+        <header>
+          Lorem ipsum dolor sit.
+          <div>
+
+          </div>
+
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+
+        </header>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus doloremque autem, omnis reiciendis inventore illum! Hic maxime qui optio, impedit eaque provident at excepturi eveniet sed ad suscipit tempore repudiandae!
+        </p>
+        <footer>
+          Lorem ipsum dolor sit.
+        </footer>
+      </article>
+
+      <aside>
+
+        quote
+
+      </aside>
+
+    </section>
+
+    <section class="second-section">
+
+
+
+    </section>
+
+
+  </main>
+
+
+  <footer>
+
+    About us - Copyright - addresse
+
+  </footer>
+
+
+</body>
+</html>

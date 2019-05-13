@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    .box1,.box3 {
+      border: 1px solid grey;
+      width: 33%;
+      float: left;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
+    .box2 {
+      float: right;
+      border: 1px solid grey;
+      width: 33%;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
+    em {
+      display: inline;
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+  <div class="clearfix">
+
+    <div class="box1">box1</div>
+  
+    <div class="box2">box2</div>
+
+    <div class="box3">box3</div>
+
+
+  </div>
+
+  <p>lorem</p>
+
+  <h1>Block Level Elements</h1>
+
+  <ul>
+    <li>div</li>
+    <li>h1</li>
+    <li>p</li>
+    <li>article</li>
+    <li>section</li>
+  </ul>
+
+  <h2>Inline elements</h2>
+
+  <p>Lorem <img src="../demo_code/box-model.png" alt=""> ipsum, <a href="#"> dolor sit</a> amet consectetur <em>adipisicing elit</em>. Aliquid enim placeat dolorem inventore temporibus delectus quisquam commodi obcaecati, sunt, esse culpa asperiores? Vitae incidunt a alias porro exercitationem eum ullam.</p>
+
+</body>
+</html>
